@@ -1,0 +1,93 @@
+style
+  body {
+    /* 1. コンテンツの最大幅を決める（お好みで調整） */
+    max-width: 800px; 
+    
+    /* 2. 左右の余白を「自動」にして中央に寄せる */
+    margin: 0 auto; 
+    
+    /* 3. 少し内側に余白を作るとスマホで見やすくなります */
+    padding: 20px;
+    
+    /* おまけ：文字を見やすくする */
+    font-family: sans-serif;
+    line-height: 1.6;
+  }
+
+
+header {
+    background-color: #44a253;
+    color: #44a253;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center; /* 👈 この行を追加 */
+}
+.twitter-icon {
+  width: 100px;
+  height: auto;
+}
+
+/* .container内の画像を中央に寄せるスタイル */
+.container img {
+  display: block;
+  margin: auto;
+}
+/* footerのスタイル */
+footer {
+  background-color: #44a253;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+/* ボタンのデザイン */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* 緑色 */
+    color: white;
+    text-decoration: none; /* 下線を消す */
+    border-radius: 5px;   /* 角を丸くする */
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* main.css */
+.news-preview {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: left; /* リストは左寄せが見やすい */
+}
+
+.news-preview h2 {
+    font-size: 1.2rem;
+    border-bottom: 2px solid #4CAF50;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.news-preview ul {
+    list-style: none; /* 点を消す */
+    padding: 0;
+}
+
+.news-preview li {
+    padding: 5px 0;
+    color: #333;
+}
